@@ -12,9 +12,11 @@ class MyApp extends StatelessWidget {
         title: 'Proyecto Final',
         theme: ThemeData(
           brightness: Brightness.light,
-          primaryColor: Colors.cyan,
-          hintColor: Colors.cyan,
+          primaryColor: Colors.blueGrey,
+
+          hintColor: Colors.black,
           primarySwatch: Colors.blue,
+          
         ),
         initialRoute: '/',
         onGenerateRoute: (RouteSettings settings) {

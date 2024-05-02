@@ -55,10 +55,13 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                     SizedBox(height: 40),
                     ElevatedButton(
-                        onPressed:() {
+                        style: ElevatedButton.styleFrom(
+                            foregroundColor: Colors.black,
+                            backgroundColor: Colors.black),
+                      onPressed:() {
 
-                        },
-                        child: Text('Looks like a RaisedButton')
+                      },
+                      child: Text('Looks like a RaisedButton')
                     )
                   ]
                 ),
